@@ -24,12 +24,12 @@ XXXXServicioImpl (Clase):
     - Depedencias de la lógica de negocio
         - Injección de un XXXXRepositorio (GenericDao-NativeDao)
             - Declaración de un XXXXXQuery   
-		- Injección de cualquier dependencia
-		  [...]
+	- Injección de cualquier dependencia
+	  [...]
 		
 XXXXXQuery (Clase):
     - Definición de QueryTemplateSpecs para traerno la lógica de negocio de la base de datos
-    - Definción de un XXXXDTO
+    - Definición de un XXXXDTO
 
 XXXXDTO (Clase):
     - Implementar Serializable
