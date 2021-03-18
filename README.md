@@ -41,7 +41,7 @@ XXXXFactory (Clase):
     - Implementar método estático para crear 'new XXXX()'
 
 XXXXBuilder (Clase)
-    - Implementar método estático para manipular mapas, listas o relleno de objectos/clases...
+    - Implementar método estático para manipular mapas, listas o relleno de objetos/clases...
 
 XXXXConsts
     - Agrupar literales aislados dentro de un paquete
