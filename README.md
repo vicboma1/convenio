@@ -33,21 +33,21 @@ XXXXXQuery (Clase):
 
 XXXXDTO (Clase):
     - Implementar Serializable
-	- Implementar toString(), hashCode() y equals() => Eficiencia para el uso de Map/List...
+    - Implementar toString(), hashCode() y equals() => Eficiencia para el uso de Map/List...
 	
 XXXXJPA (Clase)
 
 XXXXFactory (Clase):
-	- Implementar método estático para crear 'new XXXX()'
+    - Implementar método estático para crear 'new XXXX()'
 
 XXXXBuilder (Clase)
-	- Implementar método estático para manipular mapas, listas o relleno de objectos/clases...
+    - Implementar método estático para manipular mapas, listas o relleno de objectos/clases...
 
 XXXXConsts
-	- Agrupar literales aislados dentro de un paquete
+    - Agrupar literales aislados dentro de un paquete
 	
 XXXXEnums
-	- Implementar clase para agrupar literales que tengan cohesión/relación entre ellos mismos
+    - Implementar clase para agrupar literales que tengan cohesión/relación entre ellos mismos
 ```
 
 ## Paquetería
