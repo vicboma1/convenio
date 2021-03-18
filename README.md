@@ -78,16 +78,16 @@ XXXXEnums
  ## Tips
  ```
     - Definir métodos públicos de no más de 5 líneas (Kiss)
-    - Definir métodos privados (lanzaderas) que encapsule esta lógica en caso de exceder las 5 líneas
+    	- Definir métodos privados (lanzaderas) que encapsule esta lógica en caso de exceder las 5 líneas
     - Definir métodos privados de no más de 15 líneas
-    - Particionar/desacoplar lógica
+    	- Particionar/desacoplar lógica
     - Evitar comentarios en medio del método
-    - Creamos nuevo método privado y documentamos las aclaraciones en la cabecera 
+    	- Creamos nuevo método privado y documentamos las aclaraciones en la cabecera 
     - Evitar acoplar en 15 líneas muchas cosas
-    - Creamos métodos privado de dominio buscando el alcance de una sola cosa (Single-Responsability)
+    	- Creamos métodos privado de dominio buscando el alcance de una sola cosa (Single-Responsability)
     - Parámetros con typeword 'final' en métodos públicos de implementaciones
     - Evitar hardcodear 'Strings', definir constantes aisladas
     - Evitar declaración de 'new' en métodos privados.
-    - Esto no se puede testear!!!!
-    - Añadir parámetro nuevo en el método privado e injectar la dependencia desde el método superior.
+    	- Esto no se puede testear!!!!
+    	- Añadir parámetro nuevo en el método privado e injectar la dependencia desde el método superior.
 ```
